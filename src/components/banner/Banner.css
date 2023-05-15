@@ -1,0 +1,29 @@
+.contenedor-banner {
+  width: 100vw;
+  position: relative;
+}
+
+.tapiz {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+.contenedor-banner-central {
+  position: absolute;
+  top: 15%;
+  right: 50%;
+}
+
+.imagen-bkg1 {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.imagen-centro {
+  position: relative;
+  left: 50%;
+  top: 50%;
+}

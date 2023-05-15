@@ -1,0 +1,55 @@
+.navbar {
+  width: 100vw;
+  height: 100px;
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  backdrop-filter: blur(10px);
+  padding: 10px;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 2px solid #946706;
+}
+
+@media screen and (max-width: 300px) {
+  .navbar {
+    background-color: red;
+    width: 100%;
+  }
+
+  .menu-navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menu-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu-navbar li:hover {
+  color: yellow;
+}
+
+.logo-header {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-header img {
+  width: 150px;
+}
+
+.enlaces {
+  color: white;
+  font-size: 1.3rem;
+}

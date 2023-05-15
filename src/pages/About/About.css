@@ -1,0 +1,13 @@
+.contenedor-about {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../assets/image/harry-potter-amigos.jpg");
+  object-fit: cover;
+}
+h1 {
+  font-size: 5rem;
+  color: white;
+}

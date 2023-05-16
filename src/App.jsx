@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/header/Header";
-import Banner from "./components/banner/Banner";
+import Home from "./pages/home/Home";
 import About from "./pages/About/About";
 import { Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Banner />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

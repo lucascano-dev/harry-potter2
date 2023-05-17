@@ -1,12 +1,16 @@
 import React from "react";
 import "./Cards.css";
 
+
 const Cards = ({ datos }) => {
   return (
     <div className="card">
       {datos?.map((personaje) => (
         <div className="cards-conteiner">
           <div key={personaje.id}>
+            <div>
+              <img src={personaje.image} alt={personaje.name} />
+            </div>
             <div>
               <h1 className="nombre-personaje">{personaje.name}</h1>
             </div>

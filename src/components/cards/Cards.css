@@ -1,18 +1,27 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 .nombre-personaje {
   color: black;
+  font-size: 1.3rem;
 }
 
 .nombre-casa {
   color: black;
+  font-size: 1.1rem;
 }
 
-.card {
-  display: grid;
-  grid-template-columns: repeat((auto-fill, minmax(1rem, 2 fr)));
-}
+
 .cards-conteiner {
-  width: 200px;
-  height: 150px;
+  width: 300px;
+  height: auto;
   background-color: brown;
   margin: 10px;
+  border-radius: 15px;
+}
+
+.cards-conteiner img{
+  width: 300px;
+  border-radius: 15px;
 }
